@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Yadir Aguilar">
+    <meta name="description" content="Hoja de vida">
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+    <header>
+      <svg width="200" height="100">
+        <image xlink:href="img/logo.svg" width="200" height="200"></image>
+      </svg>
+    </header>
+    <nav>
+          <a href="index.html">Inicio | </a>
+          <a href="educacion.html">Educacion | </a>
+          <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <svg width="300px" height="300px">
+        <image xlink:href="img/foto_personal.svg" width="300px" height="300px"></image>
+      </svg>
+      <p>
+        <strong>Nombre:</strong> Yadir Aguilar <br>
+        <strong>Fecha Nacimiento: </strong> 24/01/1997 <br>
+        <strong>Lugar Nacimiento: </strong> Limón
+      </p>
+    </section>
+<hr>
+
+    <section>
+      <h2>Educación</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2014</td>
+              <td>LINSA</td>
+              <td>SAN RAMÓN</td>
+              <td>SÍ</td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td>UCR</td>
+              <td>ESPARZA</td>
+              <td>SI</td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td>NEXT U</td>
+              <td>WEB</td>
+              <td>SÍ</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+<hr>    
+    <section>
+      <h3>Agregar Estudio</h3>
+      <form >
+          <label for="ano">Año</label>
+          <select class="" name="ano" id="ano">
+              <option value="">2018</option>
+              <option value="">2017</option>
+              <option value="">2016</option>
+          </select><br>
+          <label for="institucion">Institución</label>
+          <input type="text" name="institucion" value="" id="institucion"><br>
+          <label for="lugar">Lugar</label>
+          <input type="text" name="lugar" value="" id="lugar"><br>
+          <label for="culmino">¿Culminó?</label>
+          <input type="radio" name="culmino" value="Sí" id="culmino_1">
+          <input type="radio" name="culmino" value="No" id="culmino_0"><br>
+          <input type="submit" name="enviar" value="Enviar">
+
+      </form>
+    </section>
+
+
+    <footer >
+        yadir@mediaexpress.com
+    </footer>
+  </body>
+</html>
